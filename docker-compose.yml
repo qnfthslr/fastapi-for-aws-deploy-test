@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   app:
-    image: ghcr.io/qnfthslr/fastapi-for-aws-deploy-test:latest
+    image: ghcr.io/qnfthslr/fastapi-server:latest
     container_name: docker-fastapi-deploy-server
     ports:
       - 8000:8000
